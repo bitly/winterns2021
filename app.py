@@ -10,6 +10,7 @@ app.secret_key = "secret"
 @app.route("/", methods = ['GET'])
 def hello():
     hi = "hello world. Winterns are the best."
+    blah = "another change"
     return render_template('app.html', text=hi)
 
 
