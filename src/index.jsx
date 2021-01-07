@@ -60,7 +60,7 @@ const App = () => {
             {
               showIntro && !shouldShowBio && <div className="intro">
                 <p>
-                  Introduction: Welcome to the Bitly API! If you'd like to use Bitly to shorten, brand, share, or retrieve data from links programmatically, you've come to the right place. If you're interested in integrating
+                  Introduction: Welcome to the Bitly API! Diana was here. If you'd like to use Bitly to shorten, brand, share, or retrieve data from links programmatically, you've come to the right place. If you're interested in integrating
                 </p>
                 <p>
                   your app or software platform with Bitly, you'll need to register and authenticate your service with our API. To do so please contact us at API_sales@bit.ly
