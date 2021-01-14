@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.footer {
+  background-color: #063B6F;
+  position: absolute;
+  left:0px;
+  bottom:0px;
+  height:150px;
+  width:100%;
+}
+
+
+.footertext {
+  font-family: sans-serif;
+  font: verdana;
+  color: white;
+  text-align:center;
+}
+
+.center-text{
+text-align:center;
+}
+
+.fa {
+  padding: 16px;
+  font-size: 50px;
+  width: 4px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: right;
+}
+
+/* hover effect  */
+.fa:hover {
+  opacity: 0.7;
+  
+}
+
+/* specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3B5998;
+  background: transparent;
+}
+
+/*twitter*/
+.fa-twitter {
+  color: #55ACEE;
+  background: transparent;
+}
+
+/*github*/
+.fa-github {
+  color:red;
+  background: transparent;
+}
+
+/*instagram*/
+.fa-instagram {
+  color: #125688;
+  background: transparent;
+}
+
+/*linkeldn*/
+.fa-linkedin {
+  color: #007bb5;
+  background: transparent;
+}
