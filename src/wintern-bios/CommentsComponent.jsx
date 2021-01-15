@@ -8,28 +8,19 @@ const CommentsComponent = ({bioToShow, color='red'}) => {
 
 
   return (
-    <div className='commentsset'>
-    <p>Trying out to see if this is working!</p></div>
-    <div>
-    <h3>A demonstration of how to access a Text Field</h3>
-
-<input type="text" id="myText" value="Some text...">
-
-<p>Click the "Try it" button to get the text in the text field.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myText").value;
-  document.getElementById("demo").innerHTML = x;
-}
-</script></input>
-</div>
-    
+   <form>
+      <div>
+        <label>Name</label>
+        <input type="text" name="firstName" required />
+        <label>Email Address</label>
+        <input type="text" name="email" required />
+      </div>
+      <div>
+        <label>Comment</label>
+        <input type="askaquestion" name="comment" required />
+      </div>
+      <button type="submit">Post</button>
+    </form>
   );
-        }
-
+};
 export default CommentsComponent;
