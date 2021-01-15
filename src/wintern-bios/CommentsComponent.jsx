@@ -8,9 +8,19 @@ const CommentsComponent = ({bioToShow, color='red'}) => {
 
 
   return (
-    <div className='commentsset'></div>
-
+   <form>
+      <div>
+        <label>Name</label>
+        <input type="text" name="firstName" required />
+        <label>Email Address</label>
+        <input type="text" name="email" required />
+      </div>
+      <div>
+        <label>Comment</label>
+        <input type="askaquestion" name="comment" required />
+      </div>
+      <button type="submit">Post</button>
+    </form>
   );
-        }
-
+};
 export default CommentsComponent;
