@@ -9,64 +9,70 @@
   width:100%;
 }
 
-
 .footertext {
-  font-family: sans-serif;
-  font: verdana;
-  color: white;
-  text-align:center;
+    font-family: verdana, sans-serif;
+    color: white;
 }
 
 .center-text{
-text-align:center;
+    text-align:center;
 }
 
 .fa {
-  padding: 16px;
-  font-size: 50px;
-  width: 4px;
-  line-height: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  float: right;
+    font-size: 40px;
+    width: 4px;
+    line-height: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    float: left;
+    background-color: transparent;
+
 }
 
 /* hover effect  */
 .fa:hover {
-  opacity: 0.7;
-  
+    opacity: 0.7;
 }
-
 /* specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-  color: #3B5998;
-  background: transparent;
-}
+    padding: 40px;
+    }
+.fa-facebook:before {
+    color:white;
+    }
+
 
 /*twitter*/
 .fa-twitter {
-  color: #55ACEE;
-  background: transparent;
+    padding: 40px;
+}
+.fa-twitter:before {
+    color: #55ACEE;
 }
 
 /*github*/
 .fa-github {
-  color:red;
-  background: transparent;
+    padding: 40px;
+}
+.fa-github:before {
+    color:red;
 }
 
 /*instagram*/
 .fa-instagram {
-  color: #125688;
-  background: transparent;
+    padding: 40px;
+}
+ .fa-instagram:before{ 
+    color: #125688;
 }
 
 /*linkeldn*/
 .fa-linkedin {
-  color: #007bb5;
-  background: transparent;
+    padding: 40px;
 }
+.fa-linkedin:before {
+    color: #007bb5;
+}
+
