@@ -12,10 +12,7 @@
 .footertext {
     font-family: verdana, sans-serif;
     color: white;
-}
-
-.center-text{
-    text-align:center;
+    margin-left: 650px;
 }
 
 .fa {
@@ -26,53 +23,51 @@
     border-radius: 50%;
     float: left;
     background-color: transparent;
-
 }
 
 /* hover effect  */
 .fa:hover {
     opacity: 0.7;
 }
-/* specific color for each brand */
+/* different social media */
 
-/* Facebook */
-.fa-facebook {
-    padding: 40px;
-    }
-.fa-facebook:before {
-    color:white;
-    }
+        /* Facebook */
+        .fa-facebook {
+            padding: 40px;
+            }
+        .fa-facebook:before {
+            color:white;
+            }
 
+        /*twitter*/
+        .fa-twitter {
+            padding: 40px;
+        }
+        .fa-twitter:before {
+            color: #55ACEE;
+        }
 
-/*twitter*/
-.fa-twitter {
-    padding: 40px;
-}
-.fa-twitter:before {
-    color: #55ACEE;
-}
+        /*github*/
+        .fa-github {
+            padding: 40px;
+        }
+        .fa-github:before {
+            color:red;
+        }
 
-/*github*/
-.fa-github {
-    padding: 40px;
-}
-.fa-github:before {
-    color:red;
-}
+        /*instagram*/
+        .fa-instagram {
+            padding: 40px;
+        }
+        .fa-instagram:before{ 
+            color: #125688;
+        }
 
-/*instagram*/
-.fa-instagram {
-    padding: 40px;
-}
- .fa-instagram:before{ 
-    color: #125688;
-}
-
-/*linkeldn*/
-.fa-linkedin {
-    padding: 40px;
-}
-.fa-linkedin:before {
-    color: #007bb5;
-}
+        /*linkeldn*/
+        .fa-linkedin {
+            padding: 40px;
+        }
+        .fa-linkedin:before {
+            color: #007bb5;
+        }
 
