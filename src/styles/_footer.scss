@@ -7,12 +7,14 @@
   bottom:0px;
   height:150px;
   width:100%;
-}
+
 
 .footertext {
     font-family: verdana, sans-serif;
     color: white;
-    margin-left: 650px;
+    width: 500px;
+    margin: auto;
+    // margin-left: 650px;
 }
 
 .fa {
@@ -71,3 +73,4 @@
             color: #007bb5;
         }
 
+    }
