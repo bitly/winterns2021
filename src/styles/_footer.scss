@@ -1,0 +1,73 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.footer {
+  background-color: #063B6F;
+  position: absolute;
+  left:0px;
+  bottom:0px;
+  height:150px;
+  width:100%;
+}
+
+.footertext {
+    font-family: verdana, sans-serif;
+    color: white;
+    margin-left: 650px;
+}
+
+.fa {
+    font-size: 40px;
+    width: 4px;
+    line-height: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    float: left;
+    background-color: transparent;
+}
+
+/* hover effect  */
+.fa:hover {
+    opacity: 0.7;
+}
+/* different social media */
+
+        /* Facebook */
+        .fa-facebook {
+            padding: 40px;
+            }
+        .fa-facebook:before {
+            color:white;
+            }
+
+        /*twitter*/
+        .fa-twitter {
+            padding: 40px;
+        }
+        .fa-twitter:before {
+            color: #55ACEE;
+        }
+
+        /*github*/
+        .fa-github {
+            padding: 40px;
+        }
+        .fa-github:before {
+            color:red;
+        }
+
+        /*instagram*/
+        .fa-instagram {
+            padding: 40px;
+        }
+        .fa-instagram:before{ 
+            color: #125688;
+        }
+
+        /*linkeldn*/
+        .fa-linkedin {
+            padding: 40px;
+        }
+        .fa-linkedin:before {
+            color: #007bb5;
+        }
+
